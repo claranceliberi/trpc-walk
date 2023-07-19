@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "client": "tsc client/index && node client/index",
-    "server": "tsc server/index && node server/index"
+    "client": "tsc ./src/client.ts ",
+    "server": "tsc ./src/server.ts " 
   },
   "dependencies": {
     "@trpc/client": "^10.34.0",
@@ -16,5 +16,8 @@
   "main": "index.js",
   "repository": "git@github.com:claranceliberi/trpc-walk.git",
   "author": "Clarance Liberiste Ntwari <60586899+claranceliberi@users.noreply.github.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.4.2"
+  }
 }
