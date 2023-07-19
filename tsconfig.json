@@ -8,6 +8,7 @@
         "rootDir": "./src",
         "outDir": "./dist",
         "skipLibCheck": true,
+        
         "types": [
             "node"
         ],
@@ -28,6 +29,6 @@
         "src"
     ],
     "exclude": [
-        "node_modules"
+        "node_modules/"
     ]
 }
